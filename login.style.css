@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+html,body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #3f3dbd;
+}
+
+/*PARTE DE LOGIN*/
+.cabecalho {
+    width: 380px;
+    background: #ffff;
+    border-radius: 5px;
+}
+.cabecalho .title {
+    line-height: 80px;
+    background: #232766;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #ffff;
+    font-size:  25px;
+    font-weight: 600;
+}
+.cabecalho form {
+    padding: 30px 20px 25px 20px;
+}
+.cabecalho form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.cabecalho form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+}
+
+.cabecalho form .row i{
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    color: #fff;
+    background: #241e57;
+    border: 1px solid #414cad;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cabecalho form  .button input {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background: #232766;
+    font-size: 16px;
+    padding-left: 0px;
+    border: 1px solid #414cad;
+    cursor: pointer;
+    
+}
+
+.cabecalho form .senha a:link {
+    text-align: center;
+    margin-top: 10px;
+    color: #1947db;
+}
+.cabecalho form .senha a:link:hover {
+    color: #fcb045;
+}
+.cabecalho form .senha a:link:visited {
+    color: #1947db;
+}
+.direito {
+    margin-top: 10px;
+    color: #e9e9e9;
+}
